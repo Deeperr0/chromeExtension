@@ -1,0 +1,44 @@
+/* popup.css */
+
+body {
+	font-family: Arial, sans-serif;
+	padding: 10px;
+	max-width: 300px;
+}
+
+button {
+	padding: 8px 16px;
+	margin: 8px 0;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#output {
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	display: none; /* Initially hide the output */
+}
+
+textarea {
+	width: 100%;
+	resize: none;
+	margin-bottom: 10px;
+}
+/* Style the status message for visual feedback */
+#statusMessage {
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+/* Optionally, you can add styling for buttons to give visual feedback on hover or click */
+#regenerateBtn:hover,
+#copyBtn:hover {
+	cursor: pointer;
+	/* Add desired hover effects or styles */
+}
+
+/* Add more styles as needed for your specific design */
